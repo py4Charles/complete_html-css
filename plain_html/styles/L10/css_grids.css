@@ -30,15 +30,10 @@ input {
   /* background: red; */
 }
 
-#outer-div-1-1{
-  /* creating a grid by setting display to grid and grid-template columns */
-  display: grid;
-  /* background: blue; */
-}
-
 #outer-div-2 {
   display: inline-block;
   margin-left: 15px;
+  /* background: blue; */
 }
 
 #channel-div {
@@ -46,6 +41,7 @@ input {
 }
 
 #channel-thumbnail-grid {
+    /* creating a grid by setting display to grid and grid-template columns */
   display: grid;
   grid-template-columns: 50px 1fr;
   margin-top: 5px;
