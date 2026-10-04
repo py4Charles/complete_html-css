@@ -36,6 +36,32 @@ input {
   /* background: blue; */
 }
 
+#outer-div-3 {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  /* background: red; */
+}
+
+#outer-div-4 {
+  display: inline-block;
+  margin-left: 15px;
+  /* background: blue; */
+}
+
+#outer-div-5 {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  /* background: red; */
+}
+
+#outer-div-6 {
+  display: inline-block;
+  margin-left: 15px;
+  /* background: blue; */
+}
+
 #channel-div {
   /* background: gray; */
 }

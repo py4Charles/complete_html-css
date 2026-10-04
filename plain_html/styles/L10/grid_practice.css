@@ -54,4 +54,5 @@
   margin-top: 30px;
   /* setting a gap between the grid elemets with column gap and row gap */
   column-gap: 20px;
+  row-gap: 40px;
 }
