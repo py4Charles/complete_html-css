@@ -18,8 +18,9 @@ input {
 
 #channel-pic {
   display: inline-block;
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
+  background: red;
 }
 
 #outer-div-1 {
@@ -35,7 +36,7 @@ input {
 }
 
 #channel-div {
-  background: gray;
+  /* background: gray; */
 }
 
 #channel-thumbnail-grid {
@@ -45,6 +46,7 @@ input {
 }
 
 #info-div {
+  width: 300px;
   /* background: gray; */
 }
 
