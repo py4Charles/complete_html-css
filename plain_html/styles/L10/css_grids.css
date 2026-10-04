@@ -102,3 +102,7 @@ input {
   font-size: 14px;
   color: rgb(96, 96, 96);
 }
+
+#spacing-grid{
+  /* creating a spacing grid for rows and columns */
+}
