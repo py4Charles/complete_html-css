@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../../styles/L10/grid_practice.css">
-        <title>Grid Practice</title>
-    </head>
-    <body>
-        <div id="outer-div-1">
-            <div id="div-1">div 1</div>
-            <div id="div-2">div 2 <p> text </p></div>
-            <!-- Adding more elements make the grid grow taller and it 
+
+<head>
+    <link rel="stylesheet" href="../../styles/L10/grid_practice.css">
+    <title>Grid Practice</title>
+</head>
+
+<body>
+    <div id="outer-div-1">
+        <div id="div-1">div 1</div>
+        <div id="div-2">div 2 <p> text </p>
+        </div>
+        <!-- Adding more elements make the grid grow taller and it 
              handles alignment much better than inline-blocks-->
-        </div>
+    </div>
 
-        <div id="outer-div-2">
-            <div id="div-1">100px</div>
-            <div id="div-2">100px <p> text </p></div>
-            <div id="div-3">200px</div>
-            <div id="div-3">100px</div>
-            <!-- whenever we have more elements than columns
+    <div id="outer-div-2">
+        <div id="div-1">100px</div>
+        <div id="div-2">100px <p> text </p>
+        </div>
+        <div id="div-3">200px</div>
+        <div id="div-3">100px</div>
+        <!-- whenever we have more elements than columns
              it starts to wrap around and start new rows instead -->
-        </div>
+    </div>
 
-        <div id="outer-div-3">
-            <div id="div-1">100px</div>
-            <div id="div-2">1fr</div>
-            <!-- fr means free space and will take the remainder of the space 
+    <div id="outer-div-3">
+        <div id="div-1">100px</div>
+        <div id="div-2">1fr</div>
+        <!-- fr means free space and will take the remainder of the space 
              in a div -->
-        </div>
+    </div>
 
-        <div id="outer-div-4">
-            <div id="div-1">100px</div>
-            <div id="div-2">1fr</div>
-            <div id="div-3">2fr</div>
-            <!-- when we have 2 or more fr in a div the number preceeding
+    <div id="outer-div-4">
+        <div id="div-1">100px</div>
+        <div id="div-2">1fr</div>
+        <div id="div-3">2fr</div>
+        <!-- when we have 2 or more fr in a div the number preceeding
              the fr tells how much space each is entitled to-->
-             <!-- the number acts as a ratio -->
-        </div>
-    </body>
+        <!-- the number acts as a ratio -->
+    </div>
+
+    <div id="outer-div-5">
+        <div id="div-1">100px</div>
+        <div id="div-2">1fr</div>
+        <div id="div-3">2fr</div>
+        <!-- when we have 2 or more fr in a div the number preceeding
+             the fr tells how much space each is entitled to-->
+        <!-- the number acts as a ratio -->
+    </div>
+</body>
+
 </html>

@@ -1,34 +1,40 @@
-#div-1{
-    background-color: lightblue;
+#div-1 {
+  background-color: lightblue;
 }
 
-#div-2{
-    background-color: lightpink;
+#div-2 {
+  background-color: lightpink;
 }
 
-#div-3{
-    background-color: lightgreen;
+#div-3 {
+  background-color: lightgreen;
 }
 
-#outer-div-1{
-    display: grid;
-    grid-template-columns: 100px 100px;
+#outer-div-1 {
+  display: grid;
+  grid-template-columns: 100px 100px;
 }
 
-#outer-div-2{
-    display: grid;
-    grid-template-columns: 100px 100px 200px;
-    margin-top: 30px;
+#outer-div-2 {
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+  margin-top: 30px;
 }
 
-#outer-div-3{
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    margin-top: 30px;
+#outer-div-3 {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-top: 30px;
 }
 
-#outer-div-4{
-    display: grid;
-    grid-template-columns: 100px 1fr 2fr;
-    margin-top: 30px;
+#outer-div-4 {
+  display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+  margin-top: 30px;
+}
+
+#outer-div-5 {
+  display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+  margin-top: 30px;
 }
