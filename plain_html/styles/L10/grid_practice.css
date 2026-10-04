@@ -10,6 +10,21 @@
   background-color: lightgreen;
 }
 
+#div-1-a {
+  background-color: lightblue;
+  height: 300px;
+}
+
+#div-2-a {
+    background-color: lightpink;
+    height: 300px;
+}
+
+#div-3-a {
+    background-color: lightgreen;
+    height: 300px;
+}
+
 #outer-div-1 {
   display: grid;
   grid-template-columns: 100px 100px;
@@ -37,4 +52,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 30px;
+  /* setting a gap between the grid elemets with column gap and row gap */
+  column-gap: 20px;
 }
