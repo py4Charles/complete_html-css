@@ -35,6 +35,6 @@
 
 #outer-div-5 {
   display: grid;
-  grid-template-columns: 100px 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 30px;
 }
