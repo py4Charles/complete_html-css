@@ -37,10 +37,10 @@ input {
 }
 
 #outer-div-3 {
-  display: inline-block;
-  width: 400px;
   vertical-align: top;
-  /* background: red; */
+  display: inline-block;
+  margin-left: 15px;
+  /* background: blue; */
 }
 
 #outer-div-4 {
@@ -71,7 +71,7 @@ input {
   display: grid;
   grid-template-columns: 50px 1fr;
   margin-top: 5px;
-  background: blue;
+  /* background: blue; */
 }
 
 #info-div {
