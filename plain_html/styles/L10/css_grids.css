@@ -12,7 +12,7 @@ input {
 }
 
 .img {
-  width: 400px;
+  width: 100%;
   display: inline-block;
 }
 
@@ -21,51 +21,6 @@ input {
   width: 40px;
   border-radius: 50%;
   background: red;
-}
-
-#outer-div-1 {
-  display: inline-block;
-  width: 400px;
-  vertical-align: top;
-  /* background: red; */
-  /* width: 100%; */
-}
-
-#outer-div-2 {
-  display: inline-block;
-  margin-left: 15px;
-  /* background: blue; */
-  /* width: 100%; */
-}
-
-#outer-div-3 {
-  vertical-align: top;
-  display: inline-block;
-  margin-left: 15px;
-  /* background: blue; */
-  /* width: 100%; */
-}
-
-#outer-div-4 {
-  display: inline-block;
-  margin-left: 15px;
-  /* background: blue; */
-  /* width: 100%; */
-}
-
-#outer-div-5 {
-  display: inline-block;
-  width: 400px;
-  vertical-align: top;
-  /* background: red; */
-  /* width: 100%; */
-}
-
-#outer-div-6 {
-  display: inline-block;
-  margin-left: 15px;
-  /* width: 100%; */
-  /* background: blue; */
 }
 
 #channel-div {
