@@ -21,6 +21,7 @@ input{
     font-weight: 700px;
     color: white;
     background-color: rgb(92, 92, 255);
+    cursor: pointer;
 }
 
 .outer-div-1{

@@ -23,10 +23,6 @@ input {
   background: red;
 }
 
-#channel-div {
-  /* background: gray; */
-}
-
 #channel-thumbnail-grid {
     /* creating a grid by setting display to grid and grid-template columns */
   display: grid;

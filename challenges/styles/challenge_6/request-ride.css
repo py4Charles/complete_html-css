@@ -25,6 +25,7 @@ button{
     margin-right: 10px;
     padding: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .sign-up{
