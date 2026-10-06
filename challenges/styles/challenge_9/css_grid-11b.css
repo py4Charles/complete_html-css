@@ -1,0 +1,7 @@
+.content__grid__1{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    align-items: center;
+    height: 100vh;
+    /* background-color: red; */
+}

@@ -1,0 +1,35 @@
+input{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+}
+
+.email{
+    width: 220px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sign-up{
+    width: 235px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700px;
+    color: white;
+    background-color: rgb(92, 92, 255);
+    cursor: pointer;
+}
+
+.outer-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-div-1{
+    display: inline-block;
+}

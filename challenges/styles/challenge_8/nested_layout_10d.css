@@ -1,0 +1,100 @@
+body {
+  font-family: "calibri";
+}
+
+#inner-name-1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#master-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  margin: 0px;
+}
+
+#inner-info-1 {
+  color: rgb(122, 122, 122);
+}
+
+#outer-div-centered {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#outer-div-1 {
+  width: 270px;
+  height: 400px;
+  display: inline-block;
+  /* border: 3px solid purple; */
+}
+
+#img-main {
+  display: inline-block;
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0px;
+  border-radius: 3px 3px 0px 0px; 
+  /* border: 3px solid blue; */
+}
+
+#img-main-1 {
+  display: inline-block;
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+  object-position: -20px;
+  border-radius: 3px 3px 0px 0px; 
+  /* border: 3px solid blue; */
+}
+
+#img-main-2 {
+  display: inline-block;
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+  object-position: -260px;
+  border-radius: 3px 3px 0px 0px; 
+  /* border: 3px solid blue; */
+}
+
+#image-container-1 {
+  width: 270px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgb(204, 204, 204);
+  /* border: 3px solid red; */
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgb(82, 137, 255);
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.3;
+}
+
+#text-div-1 {
+  padding: 0px 5px 10px 10px;
+}
+
+img #pic-friends-layout-inner{
+    width: 50px;
+    height: 50px;
+}

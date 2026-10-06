@@ -1,0 +1,49 @@
+body{
+    font-family: "Arial";
+}
+
+p{
+    margin: 0px 0px 1px 0px;
+}
+
+img{
+    display: inline-block;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+#outer-div-2{
+    display: inline-block;
+    margin-left: 15px;
+    width: 300px;
+}
+
+#grey-text{
+    color: grey;
+}
+
+#inner-name-text{
+    font-weight: 600;
+}
+
+button{
+    background-color: rgb(80, 191, 255);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#outer-div-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#outer-div-4{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}

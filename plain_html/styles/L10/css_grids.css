@@ -1,0 +1,69 @@
+body {
+  font-family: "Roboto", Arial;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+input {
+  display: block;
+}
+
+.img {
+  width: 100%;
+  display: inline-block;
+}
+
+#channel-pic {
+  display: inline-block;
+  width: 40px;
+  border-radius: 50%;
+  background: red;
+}
+
+#channel-thumbnail-grid {
+    /* creating a grid by setting display to grid and grid-template columns */
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 5px;
+  /* background: blue; */
+}
+
+#info-div {
+  width: 300px;
+  /* background: gray; */
+}
+
+#youtube-name {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#title-p {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+#youtube-name {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+#youtube-details {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+#spacing-grid{
+  /* creating a spacing grid for rows and columns */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}

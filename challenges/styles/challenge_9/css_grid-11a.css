@@ -1,0 +1,11 @@
+.content__grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content__grid__1{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}

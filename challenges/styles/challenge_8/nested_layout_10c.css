@@ -1,0 +1,95 @@
+body {
+  font-family: "Calibri";
+}
+
+p {
+  margin: 0px 0px 1px 0px;
+}
+
+img {
+  width: 300px;
+  display: inline-block;
+}
+
+#heading-text-1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#outer-div-2 {
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+}
+
+#outer-div-3 {
+  display: flex;
+  align-items: top;
+  margin-top: 20px;
+  position: relative;
+}
+
+#name-text-1 {
+  margin-top: 30px;
+  color: rgb(66, 66, 66);
+  font-size: 17px;
+}
+
+#name-text-1 p {
+  margin-top: 10px;
+}
+
+#text-overlay {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#title-second-text{
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#subtitle-second-text{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#title-third-text{
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  width: 280px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#title-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#subtitle-text {
+  font-size: 20px;
+  font-weight: 600;
+}

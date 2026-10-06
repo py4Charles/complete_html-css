@@ -1,0 +1,9 @@
+.content__grid__1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    align-items: center;
+    /* height: 100vh; */
+    /* background: red; */
+}
