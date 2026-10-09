@@ -23,8 +23,27 @@
                 flex-direction: row;">
         <!-- with the flexbox it expands to take up the space that
                  the content takes up hence amking it a flexible box(flexbox) -->
-        <div style="width: 100px; background-color: lightblue;">div 1</div>
-        <div style="background-color: lightpink;">div 2 <p>texxt</p>
+        <div style="width: 100px; 
+                    background-color: lightblue;">div 1</div>
+        <div style="background-color: lightpink;
+                    flex: 1;">div 2 <p>flex: 1</p>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px;
+                display: flex;
+                flex-direction: row;">
+        <!-- with the flexbox it expands to take up the space that
+                 the content takes up hence amking it a flexible box(flexbox) -->
+        <div style="width: 100px; 
+                    background-color: lightblue;">div 1
+        </div>
+        <div style="background-color: lightpink;
+                    flex: 1;"><p>flex: 1</p>
+        </div>
+        <div style="width: 100px; 
+                    background-color: lightblue;
+                    flex: 2;">flex: 2
         </div>
     </div>
 
