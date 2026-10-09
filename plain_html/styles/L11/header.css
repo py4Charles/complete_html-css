@@ -6,15 +6,23 @@ body {
   height: 55px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .left__section{
     background-color: lightgoldenrodyellow;
+    width: 150px;
 }
 
 .middle__section{
     background-color: lightcyan;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 30px;
+    /* adding a max-width to give a limit to the growth of the flex element */
+    max-width: 500px;
 }
 .right__section{
     background-color: lightcoral;
+    width: 300px;
 }
