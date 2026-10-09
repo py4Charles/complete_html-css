@@ -1,3 +1,20 @@
-.header{
-    
+body {
+  margin: 0;
+}
+
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left__section{
+    background-color: lightgoldenrodyellow;
+}
+
+.middle__section{
+    background-color: lightcyan;
+}
+.right__section{
+    background-color: lightcoral;
 }
