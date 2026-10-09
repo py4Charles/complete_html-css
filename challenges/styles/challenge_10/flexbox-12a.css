@@ -1,0 +1,14 @@
+.div__1{
+    background-color: lightcoral;
+    width: 200px;
+}
+
+.div__2{
+    background-color: lightskyblue;
+    width: 75px;
+}
+
+.box__1{
+    display: flex;
+    flex-direction: row;
+}

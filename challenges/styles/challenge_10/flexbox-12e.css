@@ -1,0 +1,70 @@
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div__1{
+    /* background-color: lightcoral; */
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.div__2{
+    /* background-color: lightskyblue; */
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.div__3{
+    /* background-color: lightgreen; */
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.box__1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.div__1 .badge__div{
+    background-color: lightseagreen;
+     padding: 10px;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.div__2 .badge__div{
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.div__3 .badge__div{
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
