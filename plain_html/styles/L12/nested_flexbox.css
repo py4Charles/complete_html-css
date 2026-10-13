@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background: black;
+}
+
+.left__section{
+    background-color: lightcoral;
+    width: 300px;
+    height: 70px;
+}
+
+.middle__section{
+    background-color: lightgreen;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.right__section{
+    background-color: lightskyblue;
+    width: 400px;
+}
+
