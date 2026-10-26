@@ -10,7 +10,6 @@ body {
 .left__section {
   display: flex;
   /* background-color: lightcoral; */
-  width: 300px;
   height: 70px;
   align-items: center;
 }
@@ -28,21 +27,17 @@ body {
 }
 
 .menu {
-  /* border: 1px solid black; */
   width: 40px;
   height: 40px;
-  /* background: black; */
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .youtube {
-  height: 20px;
+  height: 40px;
 }
 
 .youtube div {
-  background-color: red;
-  border: 1px solid black;
   height: 40px;
   width: 40px;
 }
