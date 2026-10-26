@@ -19,6 +19,8 @@ body {
   flex: 1;
   margin-left: 70px;
   margin-right: 90px;
+  display: flex;
+  align-items: center;
 }
 
 .right__section {
@@ -37,11 +39,12 @@ body {
   height: 40px;
 }
 
-.youtube div {
-  height: 40px;
-  width: 40px;
+.voice-search-button{
+ width: 40px;
+ height: 40px;
 }
 
-.youtube h2 {
-  font-size: 28px;
+.search-button{
+   height: 40px;
+   width: 60px; 
 }
