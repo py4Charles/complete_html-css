@@ -1,57 +1,52 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+body {
+  font-family: "Courier New", Courier, monospace;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
+.header {
+  display: flex;
+  flex-direction: row;
 }
 
-
-.left__section{
-    display: flex;
-    /* background-color: lightcoral; */
-    /* width: 300px; */
-    height: 70px;
-    align-items: center;
+.left__section {
+  display: flex;
+  /* background-color: lightcoral; */
+  width: 300px;
+  height: 70px;
+  align-items: center;
 }
 
-.middle__section{
-    background-color: lightgreen;
-    flex: 1;
-    margin-left: 70px;
-    margin-right: 90px;
+.middle__section {
+  background-color: lightgreen;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 90px;
 }
 
-.right__section{
-    background-color: lightskyblue;
-    width: 400px;
+.right__section {
+  background-color: lightskyblue;
+  width: 400px;
 }
 
-.menu{
-    /* border: 1px solid black; */
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin-left: 20px;
-    margin-right: 20px;
+.menu {
+  /* border: 1px solid black; */
+  width: 40px;
+  height: 40px;
+  /* background: black; */
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.youtube{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    align-items: center;
-    gap: 10px;
+.youtube {
+  height: 20px;
 }
 
-.youtube div{
-    background-color: red;
-    border: 1px solid black;
-    height: 40px;
-    width: 40px;
+.youtube div {
+  background-color: red;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
 }
 
-.youtube h2{
-font-size: 28px;
+.youtube h2 {
+  font-size: 28px;
 }
